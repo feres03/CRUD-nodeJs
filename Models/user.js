@@ -25,6 +25,9 @@ const userSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'todo',
     }]
+    /**
+     * related to todo model 
+     */
 
 }, {
     timestamps: true, versionKey: false
